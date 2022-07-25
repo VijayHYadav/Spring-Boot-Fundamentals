@@ -26,4 +26,19 @@ public class ProductRestController {
     public Product getProduct (@PathVariable("id") int id) {
         return repository.findById(id).get();
     }
+
+    @RequestMapping(value = "/products", method = RequestMethod.POST)
+    public Product createProduct(Product product) {
+        return repository.save(product);
+    }
+
+    @RequestMapping(value = "/products", method = RequestMethod.PUT)
+    public Product updateProduct(Product product) {
+        return repository.save(product);
+    }
+
+    @RequestMapping(value = "/products/{id}", method = RequestMethod.DELETE)
+    public void deleteProduct (@PathVariable("id") int id) {
+        repository.deleteById(id);;
+    }
 }
