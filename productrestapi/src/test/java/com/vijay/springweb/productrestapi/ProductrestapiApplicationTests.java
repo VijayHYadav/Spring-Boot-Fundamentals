@@ -32,4 +32,12 @@ class ProductrestapiApplicationTests {
 		assertNotNull(newProduct.getId());
 	}
 
+	@Test
+	void testUpdateProduct() {
+		RestTemplate restTemplate = new RestTemplate();
+		Product product = restTemplate.getForObject("http://localhost:8080/productapi/products/1", Product.class);
+		product.setPrice(789);
+		restTemplate.put("http://localhost:8080/productapi/products", product);
+	}
+
 }
