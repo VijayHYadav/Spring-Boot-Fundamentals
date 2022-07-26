@@ -20,4 +20,16 @@ class ProductrestapiApplicationTests {
 		assertEquals("IPhone", product.getName());
 	}
 
+	@Test
+	public void testCreateProduct() {
+		RestTemplate restTemplate = new RestTemplate();
+		Product product = new Product();
+		product.setName("XP-PEN_TAB");
+		product.setDescription("Be the top artist in world");
+		product.setPrice(25);
+		Product newProduct = restTemplate.postForObject("http://localhost:8080/productapi/products", product, Product.class);
+		assertNotNull(newProduct);
+		assertNotNull(newProduct.getId());
+	}
+
 }
