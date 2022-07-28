@@ -16,3 +16,21 @@
 2022-07-28 07:57:50.156  INFO 4308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2022-07-28 07:57:52.941  INFO 4308 --- [main] c.v.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 10.245 seconds (JVM running for 11.877)
 2022-07-28 07:58:11.963  INFO 4308 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-28 07:58:52.041  INFO 14144 --- [main] c.v.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 11.0.13 on DESKTOP-66GKINO with PID 14144 (D:\Library\Writing\Spring\SpringFundamental\Spring boot fundamental\productrestapi\target\classes started by omsai in D:\Library\Writing\Spring\SpringFundamental\Spring boot fundamental\productrestapi)
+2022-07-28 07:58:52.051  INFO 14144 --- [main] c.v.s.p.ProductrestapiApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-28 07:58:55.049  INFO 14144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-28 07:58:55.050  INFO 14144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-28 07:58:55.504  INFO 14144 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-07-28 07:58:55.947  INFO 14144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-28 07:58:56.461  INFO 14144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-28 07:58:59.140  INFO 14144 --- [main] c.v.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 7.899 seconds (JVM running for 8.797)
+2022-07-28 07:59:06.745  INFO 14144 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-28 08:00:25.429  INFO 448 --- [main] c.v.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 11.0.13 on DESKTOP-66GKINO with PID 448 (D:\Library\Writing\Spring\SpringFundamental\Spring boot fundamental\productrestapi\target\classes started by omsai in D:\Library\Writing\Spring\SpringFundamental\Spring boot fundamental\productrestapi)
+2022-07-28 08:00:25.438  INFO 448 --- [main] c.v.s.p.ProductrestapiApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-07-28 08:00:28.996  INFO 448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-28 08:00:28.997  INFO 448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-28 08:00:29.492  INFO 448 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-07-28 08:00:29.998  INFO 448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-28 08:00:30.561  INFO 448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-28 08:00:33.701  INFO 448 --- [main] c.v.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 9.457 seconds (JVM running for 10.87)
+2022-07-28 08:00:33.850  INFO 448 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
